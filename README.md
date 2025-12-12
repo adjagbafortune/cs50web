@@ -24,8 +24,6 @@
 
 <h3>2. Aesthetics and Layout</h3>
 
-### 2. Aesthetics and Layout
-
 | Specification | Technical Implementation |
 | :--- | :--- |
 | **Google Aesthetics (Overall)** | The layout is achieved using **Flexbox** on the `body` and a **negative top margin** on the main content wrappers (`.main-content`, `.search-wrapper-image`). This accurately replicates the centered-but-offset vertical alignment of the official Google search pages. |
