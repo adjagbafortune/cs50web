@@ -1,0 +1,296 @@
+/* Global styles and layout */
+
+/* Body: Sets up the full viewport height and Flexbox for centering all content */
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    margin: 0;
+    font-family: Arial, sans-serif; /* Professional system font stack */
+    padding: 0;
+}
+
+/* Navigation Links: Positions links at the top-right corner using absolute positioning */
+.nav-links {
+    display: flex;
+    justify-content: flex-end; 
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.nav-links a {
+    margin-left: 15px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* Index page (Standard Search) styles */
+
+.main-content {
+    margin-top: -150px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Google Logo: Styling for size, font, and individual letter spacing */
+.logo-placeholder {
+    font-size: 92px;
+    margin-bottom: 2px;
+}
+
+/* Individual span colors for the logo */
+.g-color-blue { color: #4285f4; }
+.o-color-red { color: #ea4335; }
+.o-color-yellow { color: #fbbc05; }
+.l-color-green { color: #34a853; }
+.e-color-red { color: #ea4335; }
+
+/* Letter Spacing */
+.logo-placeholder span {
+    display: inline-block; 
+    line-height: 1; 
+    padding: 0;
+    margin: 0 -14px; 
+}
+
+.search-input {
+    width: 650px; /* Standard Google search bar width */
+    padding: 15px 15px;
+    font-size: 16px;
+    border-radius: 24px; 
+    border: 1px solid #dfe1e5; 
+    margin-top: -20px; 
+}
+
+/* Add shadow effect on hover, focus to mimic Google's behavior */
+.search-input:hover {
+    box-shadow: 0 1px 6px #20212447;
+}
+
+/* Centering the buttons under the search input*/
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+/* Styling both submit buttons */
+input[type="submit"] {
+    background-color: #f8f9fa; 
+    border: 1px solid #f8f9fa; 
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 10px 18px;
+    /* Corrected border-radius */
+    border-radius: 6px; 
+    font-size: 14px;
+    cursor: pointer; 
+}
+
+/* Hover effect */
+input[type="submit"]:hover {
+    box-shadow: 0 1px 1px #0000001a;
+    background-color: #f8f9fa; 
+    border: 1px solid #dadce0;
+}
+
+
+/* Image search styles */
+
+/* Image Search Wrapper: Applies the same vertical offset as the standard search */
+.search-wrapper-image {
+    margin-top: -100px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+}
+
+/* Style for the logo placeholder on the image page (smaller size) */
+.logo-placeholder.logo-small {
+    font-size: 92px;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+/* Container for the logo and the 'images' text */
+.header-image-mode {
+    display: flex; 
+    align-items: flex-end; 
+}
+
+/* Style for the 'images' text */
+.mode-text {
+    font-size: 16px;
+    color: #4285f4;
+    padding-bottom: 1px;
+}
+
+.search-input-image {
+    width: 650px; /* Adjusted width for the image search bar */
+    padding: 15px 15px;
+    font-size: 16px;
+    border-radius: 24px; 
+    border: 1px solid #dfe1e5; 
+    margin-top: 0; /* Ensures no unwanted margin */
+}
+
+.search-input-image:hover {
+    box-shadow: 0 1px 6px #20212447;
+}
+
+.buttons-container-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+
+/* Advanced search page styles */
+
+form {
+    width: 650px; 
+    margin: 50px auto 0; 
+}
+
+.header-advanced-title {
+    color: #d93025;
+    font-size: 14px;
+    padding-left: 10px;
+    margin: 20px auto 10px;
+    width: 650px; 
+}
+
+/* Section containing all four criteria fields */
+.search-criteria-section {
+    border-top: 1px solid #eee; 
+    padding-top: 20px;
+}
+
+/* Styling for the "Find pages with..." title */
+.section-title {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Using Grid to align labels and input fields in a two-column layout */
+.form-group {
+    display: grid;
+    grid-template-columns: 200px 1fr; 
+    align-items: center; 
+    margin-bottom: 15px; 
+}
+
+/* Style for the Labels */
+.form-group label {
+    font-size: 13px;
+    color: #222;
+    text-align: right; 
+    padding-right: 15px;
+}
+
+/* Style for the input fields (ensures uniform size and alignment) */
+.form-group input[type="text"] {
+    width: 100%; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box; 
+}
+
+
+/* Container for the submit button to push it to the right */
+.submit-button-container {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 30px; 
+}
+
+/* Styling the button itself (using the specific class) */
+input.advanced-submit-button {
+    background-color: #4d90fe; 
+    color: white; 
+    border: 1px solid #3079ed; 
+    border-radius: 2px;
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Slight color change on hover */
+input.advanced-submit-button:hover {
+    background-color: #357ae8;
+    border: 1px solid #2f5bb7;
+}
+
+
+/* Responsive design (Media Queries) */
+
+@media (max-width: 650px) {
+    
+    /* tandard and Image Search Inputs (Too wide on mobile) */
+    .search-input, .search-input-image {
+        width: 90%; 
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .logo-placeholder {
+        font-size: 60px; 
+        margin-bottom: 0;
+    }
+
+    /* Letter Spacing */
+    .logo-placeholder span {
+    display: inline-block; 
+    line-height: 1; 
+    padding: 0;
+    margin: 0 -10px;
+    }
+
+
+    .logo-placeholder.logo-small {
+        font-size: 60px;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    
+    /* Advanced Search Form */
+    form {
+        width: 95%; 
+        margin: 50px auto 0; 
+    }
+
+    /* Advanced Search Grid (Force stacking) */
+    .form-group {
+        grid-template-columns: 1fr; 
+    }
+
+    /* Advanced Search Labels (Fix alignment) */
+    .form-group label {
+        text-align: left;
+        padding-bottom: 5px;
+    }
+}
+
+input[type="submit"] {
+        padding: 8px 12px;
+        margin: 10px 3px;
+        font-size: 13px;
+    }
