@@ -1,5 +1,23 @@
-db.sqlite3
-.DS_Store
+auctions/__pycache__/
+
+# Environnement virtuel
+.venv/
+venv/
+env/
+
+# Fichiers d'exécution Python et caches généraux
 *.pyc
 __pycache__/
-migrations/
+*.pyo
+*.pyd
+
+# Base de données locale
+*.sqlite3
+
+# Dossiers éditeurs VS Code
+.vscode/
+.idea/
+
+# Fichiers système Windows
+Thumbs.db
+Desktop.ini
