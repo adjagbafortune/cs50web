@@ -1,2 +1,27 @@
 
 auctions/__pycache__/
+# Environnement virtuel (le plus important pour votre problème)
+.venv/
+venv/
+ENV/
+env/
+ENV_DIR/
+
+# Fichiers d'exécution Python et caches
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Base de données locale (évite d'envoyer vos données de test)
+*.sqlite3
+
+# Dossiers de configuration des éditeurs (VS Code / PyCharm)
+.vscode/
+.idea/
+
+# Fichiers système Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
