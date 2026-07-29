@@ -24,4 +24,4 @@
   - [**View Branch:** `web50/projects/2020/x/network`](https://github.com/adjagbafortune/cs50web/tree/web50/projects/2020/x/network)
 - ### Final Project
   - `Under MIT License!`
-  - [**View Project &nbsp;⇾**](https://github.com/adjagbafortune/titre-projet-final)
+  - [**View Project &nbsp;⇾**](https://github.com/adjagbafortune/assignment-app)
