@@ -1,4 +1,3 @@
-# cs50web
 <div style="display: flex;">
 <img src="https://user-images.githubusercontent.com/61654812/224535005-9d4e755d-6291-47d9-a4dc-48f369f71958.png" width="30%">
   &nbsp;
