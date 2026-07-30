@@ -23,5 +23,5 @@
   - `Design a Twitter-like social network website for making posts and following users.`
   - [**View Branch:** `web50/projects/2020/x/network`](https://github.com/adjagbafortune/cs50web/tree/web50/projects/2020/x/network)
 - ### Final Project
-  - `Under MIT License!`
+  - `Under MIT License! (Give it a star if you love it)`
   - [**View Project &nbsp;⇾**](https://github.com/adjagbafortune/assignment-app)
